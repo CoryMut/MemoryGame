@@ -1,0 +1,85 @@
+#game div {
+	border: 1px solid black;
+	width: 211px; /*15%*/
+	height: 300px; /*200*/
+	margin: 10px;
+	display: inline-block;
+	border-radius: 25px;
+}
+
+.finish {
+	display: inline-block;
+	color: green;
+	margin-left: 30%;
+	font-size: 30px;
+}
+
+button {
+	font-size: 20px;
+	margin-top: 2%;
+}
+
+.filter {
+	display: none;
+}
+
+#score {
+	float: right;
+	margin-right: 10%;
+}
+
+#match {
+	display: inline-block;
+	margin-left: 30%;
+	color: green;
+}
+
+input {
+	margin-top: 1%;
+}
+
+.gamePiece {
+	background-image: url('../static/images/card back red.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.marina {
+	background-image: url('../static/images/marina.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.isabelle {
+	background-image: url('../static/images/isabelle.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.klaus {
+	background-image: url('../static/images/klaus.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.rover {
+	background-image: url('../static/images/rover.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.marshal {
+	background-image: url('../static/images/marshal.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.hidden {
+	background-image: none;
+}

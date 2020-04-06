@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Memory Game!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Memory Game!</h1>
+    <div>
+    <form id='form'>
+      <label for="options"">What would you like to match?</label>
+      <select name="options" id="choice">
+        <option value="colors">Colors</option>
+        <option value="Animals">Animals</option>
+      </select> <br>
+      <label for="number">How many pairs would you like to match?</label>
+      <input type="text" name="number" placeholder="type here" id="numberOfPairs">
+    </form>
+    </div>
+    <div id="game">
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
